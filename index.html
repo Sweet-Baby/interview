@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dome</title>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2015491_z7d9phqoyo.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./jquery.bxslider.css">
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="./jquery.bxslider.js"></script> 
+</head>
+<body>
+    <header><span>重庆 - 猪八戒 - A楼</span><i class="iconfont iconxiala"></i></header>
+    <main>
+        <div class="Rotation">
+            <div class="bannerPc banner banner2">
+                <ul class="bxslider">
+                    <li><a href="#"><img src="images/b1.jpg" alt="" title=""/></a> </li>
+                    <li><a href="#"><img src="images/b2.jpg" alt="" title=""/></a> </li>
+                    <li><a href="#"><img src="images/b3.jpg" alt="" title=""/> </a></li>
+                    <li><a href="#"><img src="images/b4.jpg" alt="" title=""/> </a></li>
+                    <li><a href="#"><img src="images/b5.jpg" alt="" title=""/></a> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="recommend">
+            <div class="title">
+                <em></em>
+                <span>爆款推荐</span>
+            </div>
+            <ul>
+                <li></li><li></li><li></li><li></li><li></li><li></li>
+                <li></li><li></li><li></li><li></li><li></li><li></li>
+            </ul>
+        </div>
+        <div class="recommend">
+            <div class="title">
+                <em></em>
+                <span>经典午餐套餐</span>
+            </div>
+            <ul>
+                <li></li><li></li><li></li><li></li><li></li><li></li>
+                <li></li><li></li><li></li><li></li><li></li><li></li>
+            </ul>
+        </div>
+        <div class="recommend">
+            <div class="title">
+                <em></em>
+                <span>合作餐厅</span>
+            </div>
+            <div class="ul">
+                <div class="li">
+                    <div class="store">
+                        <div class="headImg"></div>
+                        <div class="name">
+                            <p>商家名称</p>
+                            <p>Type something</p>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <div class="headImg"></div>
+                        <div class="name">
+                            <p>商家名称</p>
+                            <p>Type something</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="li">
+                    <div class="store">
+                        <div class="headImg"></div>
+                        <div class="name">
+                            <p>商家名称</p>
+                            <p>Type something</p>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <div class="headImg"></div>
+                        <div class="name">
+                            <p>商家名称</p>
+                            <p>Type something</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="li">
+                    <div class="store">
+                        <div class="headImg"></div>
+                        <div class="name">
+                            <p>商家名称</p>
+                            <p>Type something</p>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <div class="headImg"></div>
+                        <div class="name">
+                            <p>商家名称</p>
+                            <p>Type something</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="li">
+                    <div class="store">
+                        <div class="headImg"></div>
+                        <div class="name">
+                            <p>商家名称</p>
+                            <p>Type something</p>
+                        </div>
+                    </div>
+                    <div class="store">
+                        <div class="headImg"></div>
+                        <div class="name">
+                            <p>商家名称</p>
+                            <p>Type something</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li class="active">
+                <i class="iconfont icondaocha"></i>
+                <span>Label</span>
+            </li>
+            <li>
+                <i class="iconfont iconshoutibao"></i>
+                <span>Label</span>
+            </li>
+            <li>
+                <i class="iconfont iconcylxr"></i>
+                <span>Label</span>
+            </li>
+            <li>
+                <i class="iconfont iconsettings-3"></i>
+                <span>Setting</span>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
+<script type="text/javascript">
+    var scale = '';/*空、16*9、4*3、3*2*/
+    var speed = 500;
+    var pause = 5;
+    $(function () {
+        $('.banner2 .bxslider').bxSlider({
+            mode: 'horizontal', /*滚动方式fade、vertical、horizontal*/
+            auto: true, /*自动滚动*/
+            autoControls: false, /*自动滚动按钮*/
+            infiniteLoop: true, /*循环滚动*/
+            hideControlOnEnd: true, /*无效按钮隐藏*/
+            adaptiveHeight: true, /*图片是否实际缩放比高度显示控制，图片比例不一样高度变化*/
+            minSlides: 1,
+            maxSlides: 1,
+            scale: scale,
+            speed: speed,
+            pause: pause * 1000
+        });
+    });
+</script> 
